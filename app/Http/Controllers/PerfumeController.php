@@ -36,6 +36,7 @@ class PerfumeController extends Controller
      */
     public function store(Request $request)
     {
+        //
         Perfume::create([
             'marca' => $request->marca,
             'nome' => $request->nome,
